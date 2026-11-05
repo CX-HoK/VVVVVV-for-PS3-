@@ -1,20 +1,23 @@
-# VVVVVV-for-PS3-
-Follow my YouTube account for upcoming ports! https://www.youtube.com/@CX-HoKDev
+![logo](logo.gif "VVVVVV")
 
-This PS3 port of VVVVVV is version 1.00, so future updates may be released if any bugs arise.
+This is the source code to VVVVVV, the 2010 indie game by [Terry Cavanagh](http://distractionware.com/), with music by [Magnus Pålsson](http://souleye.madtracker.net/). You can read the [announcement](http://distractionware.com/blog/2020/01/vvvvvv-is-now-open-source/) of the source code release on Terry's blog!
 
-The game runs at a stable frame rate of over 100 fps.
+The source code for the desktop version is in [this folder](desktop_version).
 
-It dips slightly in areas like "The Tower," but it doesn't have a major impact; otherwise, the game plays perfectly, just like you saw in the YouTube video, right?
+VVVVVV is still commerically available at [thelettervsixtim.es](https://thelettervsixtim.es/) if you'd like to support it, but you are completely free to compile the game for your own personal use. If you're interested in distributing a compiled version of the game, see [LICENSE.md](LICENSE.md) for more information.
 
-You can view the current frame rate by pressing SELECT.
+Discussion about VVVVVV updates mainly happens on the "unofficial" [VVVVVV discord](https://discord.gg/Zf7Nzea), in the `vvvvvv-code` channel.
 
-Use R1 and L1 to view the maps.
-
-It is played using the D-pad and the left analog stick.
-
-DO NOT use this on an emulator; performance is poor. Use the PKG file on a physical console—it worked well on a PS3 Slim with HEN enabled.
-
-Please spread the word about this port so it doesn't just get overlooked.
-
-I plan to return with more port-related content, and if you spot any new issues I missed, please let me know.
+Credits
+-------
+- Created by [Terry Cavanagh](http://distractionware.com/)
+- Room Names by [Bennett Foddy](http://www.foddy.net)
+- Music by [Magnus Pålsson](https://magnuspalsson.com/)
+- Metal Soundtrack by [FamilyJules](https://link.space/@familyjules)
+- 2.0 Update (C++ Port) by [Simon Roth](http://www.machinestudios.co.uk)
+- 2.2 Update (SDL2/PhysicsFS/Steamworks port) by [Ethan Lee](http://www.flibitijibibo.com/)
+- Additional coding by [Misa Kai](https://infoteddy.info/)
+- Beta Testing by Sam Kaplan and Pauli Kohberger
+- Ending Picture by Pauli Kohberger
+- Localisations by [our localisation teams](desktop_version/TRANSLATORS.txt)
+- With additional contributions by [many others here on github](desktop_version/CONTRIBUTORS.txt) <3
